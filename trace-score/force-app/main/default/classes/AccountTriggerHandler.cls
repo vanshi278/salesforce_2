@@ -8,7 +8,8 @@ public class AccountTriggerHandler {
                 con.FirstName ='CFRO';
                 con.LastName = acc.Name;
                 con.AccountId = acc.Id;
-            
+                con.Phone=acc.phone;
+                con.email='coudfulcrum@gmail.com';
                 contactsToInsert.add(con);
             }
         }
